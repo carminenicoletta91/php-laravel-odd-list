@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  background: gray;
+}
+
+header .header-left {
+  color: red;
+  font-size: 30px;
+}
+
+header .header-right ul {
+  list-style: none;
+  display: flex;
+}
+
+header .header-right ul a {
+  color: brown;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+header .header-right ul a:hover {
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px 0;
+  background: black;
+  color: red;
+}
+
+footer .footer-left {
+  font-size: 30px;
+}
+
+footer .footer-right ul {
+  list-style: none;
+}
+
+footer .footer-right ul a {
+  color: red;
+  text-decoration: none;
+}
+
+footer .footer-right ul a:hover {
+  color: white;
+}
+
+section#Num-Disp {
+  height: 60%;
+  text-align: center;
+  font-size: 30px;
+}
+
+section#Num-Disp .Box-Num-Disp {
+  font-size: 20px;
+  color: red;
+}
+
+section#Num-Disp .Box-Num-Disp ul {
+  list-style: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+

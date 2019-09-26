@@ -1,0 +1,26 @@
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:50px 0;
+  background:gray;
+  .header-left{
+    color:red;
+    font-size:30px; 
+  }
+  .header-right{
+    ul{
+      list-style: none;
+      display: flex;
+
+      a{
+        color:brown;
+        text-decoration:none;
+        padding:0 10px;
+        &:hover{
+          color:black;
+        }
+      }
+    }
+  }
+}

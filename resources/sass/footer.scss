@@ -1,0 +1,23 @@
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:75px 0; 
+  background:black;
+  color:red;
+  .footer-left{
+    font-size:30px;
+  }
+  .footer-right{
+    ul{
+      list-style: none;
+      a{
+        color:red;
+        text-decoration: none;
+        &:hover{
+          color:white;
+        }
+      }
+    }
+  }
+}
