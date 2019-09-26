@@ -67,6 +67,12 @@ section#Num-Disp .Box-Num-Disp ul {
   list-style: none;
 }
 
+.Box-Hello-User {
+  text-align: center;
+  padding: 200px 0;
+  color: red;
+}
+
 * {
   padding: 0;
   margin: 0;

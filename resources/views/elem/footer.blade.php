@@ -4,8 +4,8 @@
   </div>
   <div class="footer-right">
     <ul>
-      <a href="#"><li>Foot-Nav-Bar-1</li></a>
-      <a href="#"><li>Foot-Nav-Bar-1</li></a>
+      <a href="/"><li>Home</li></a>
+      <a href="/odd"><li>Odd-Num-Disp</li></a>
     </ul>
   </div>
 

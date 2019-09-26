@@ -5,6 +5,9 @@
   </head>
   <body>
     @include('elem.header')
-    <h1>Sei nella home</h1>
+    <div class="Box-Hello-User">
+      <h1>Hello User This is Home Page</h1>
+    </div>
+    @include('elem.footer')
   </body>
 </html>
